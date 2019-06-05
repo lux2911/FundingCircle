@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D532968322A5F80C001EE1E5 /* EstimatedReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D532968222A5F80C001EE1E5 /* EstimatedReturnViewController.swift */; };
+		D532968522A5F8A7001EE1E5 /* EstimatedReturnViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D532968422A5F8A7001EE1E5 /* EstimatedReturnViewModel.swift */; };
+		D532968922A6CCBF001EE1E5 /* Auctions.json in Resources */ = {isa = PBXBuildFile; fileRef = D532968822A6CCBF001EE1E5 /* Auctions.json */; };
+		D582D43D22A5813C00927B99 /* Auction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D582D43C22A5813C00927B99 /* Auction.swift */; };
+		D582D43F22A5834E00927B99 /* AuctionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D582D43E22A5834E00927B99 /* AuctionsService.swift */; };
+		D582D44122A5862500927B99 /* AuctionsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D582D44022A5862500927B99 /* AuctionsRouter.swift */; };
+		D582D44322A59BFF00927B99 /* AuctionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D582D44222A59BFF00927B99 /* AuctionsViewModel.swift */; };
+		D582D44722A5AE3C00927B99 /* AuctionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D582D44622A5AE3C00927B99 /* AuctionCell.swift */; };
 		D59D054A22A57720006AC399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D054922A57720006AC399 /* AppDelegate.swift */; };
-		D59D054C22A57720006AC399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D054B22A57720006AC399 /* ViewController.swift */; };
+		D59D054C22A57720006AC399 /* AuctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D054B22A57720006AC399 /* AuctionsViewController.swift */; };
 		D59D054F22A57720006AC399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D054D22A57720006AC399 /* Main.storyboard */; };
 		D59D055122A57721006AC399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59D055022A57721006AC399 /* Assets.xcassets */; };
 		D59D055422A57721006AC399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D055222A57721006AC399 /* LaunchScreen.storyboard */; };
+		E51D8747362CF217FE2A81FC /* Pods_FundingCircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F69A701DD8A64A9E389C09 /* Pods_FundingCircle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D532968222A5F80C001EE1E5 /* EstimatedReturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedReturnViewController.swift; sourceTree = "<group>"; };
+		D532968422A5F8A7001EE1E5 /* EstimatedReturnViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedReturnViewModel.swift; sourceTree = "<group>"; };
+		D532968822A6CCBF001EE1E5 /* Auctions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Auctions.json; sourceTree = "<group>"; };
+		D582D43C22A5813C00927B99 /* Auction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auction.swift; sourceTree = "<group>"; };
+		D582D43E22A5834E00927B99 /* AuctionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionsService.swift; sourceTree = "<group>"; };
+		D582D44022A5862500927B99 /* AuctionsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionsRouter.swift; sourceTree = "<group>"; };
+		D582D44222A59BFF00927B99 /* AuctionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionsViewModel.swift; sourceTree = "<group>"; };
+		D582D44622A5AE3C00927B99 /* AuctionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionCell.swift; sourceTree = "<group>"; };
 		D59D054622A57720006AC399 /* FundingCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FundingCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59D054922A57720006AC399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D59D054B22A57720006AC399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D59D054B22A57720006AC399 /* AuctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionsViewController.swift; sourceTree = "<group>"; };
 		D59D054E22A57720006AC399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D59D055022A57721006AC399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D59D055322A57721006AC399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D59D055522A57721006AC399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F69A701DD8A64A9E389C09 /* Pods_FundingCircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FundingCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DE6EF5974FE45FF410C049 /* Pods-FundingCircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FundingCircle.debug.xcconfig"; path = "Target Support Files/Pods-FundingCircle/Pods-FundingCircle.debug.xcconfig"; sourceTree = "<group>"; };
+		FDF5DF7FBB0CDDDE97521D11 /* Pods-FundingCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FundingCircle.release.xcconfig"; path = "Target Support Files/Pods-FundingCircle/Pods-FundingCircle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51D8747362CF217FE2A81FC /* Pods_FundingCircle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121E00EC229D4D86B0EDC9AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8DE6EF5974FE45FF410C049 /* Pods-FundingCircle.debug.xcconfig */,
+				FDF5DF7FBB0CDDDE97521D11 /* Pods-FundingCircle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70360C1FC6CB52EF96B3C78D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0F69A701DD8A64A9E389C09 /* Pods_FundingCircle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D582D43B22A57FCA00927B99 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D582D43E22A5834E00927B99 /* AuctionsService.swift */,
+				D582D44022A5862500927B99 /* AuctionsRouter.swift */,
+				D532968822A6CCBF001EE1E5 /* Auctions.json */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D582D44422A5ADF600927B99 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D582D44522A5AE1200927B99 /* Cells */,
+				D59D054B22A57720006AC399 /* AuctionsViewController.swift */,
+				D532968222A5F80C001EE1E5 /* EstimatedReturnViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D582D44522A5AE1200927B99 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D582D44622A5AE3C00927B99 /* AuctionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		D59D053D22A57720006AC399 = {
 			isa = PBXGroup;
 			children = (
 				D59D054822A57720006AC399 /* FundingCircle */,
 				D59D054722A57720006AC399 /* Products */,
+				121E00EC229D4D86B0EDC9AD /* Pods */,
+				70360C1FC6CB52EF96B3C78D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +122,34 @@
 		D59D054822A57720006AC399 /* FundingCircle */ = {
 			isa = PBXGroup;
 			children = (
+				D582D44422A5ADF600927B99 /* ViewControllers */,
+				D582D43B22A57FCA00927B99 /* Service */,
+				D59D055C22A57748006AC399 /* ViewModels */,
+				D59D055B22A57737006AC399 /* Models */,
 				D59D054922A57720006AC399 /* AppDelegate.swift */,
-				D59D054B22A57720006AC399 /* ViewController.swift */,
 				D59D054D22A57720006AC399 /* Main.storyboard */,
 				D59D055022A57721006AC399 /* Assets.xcassets */,
 				D59D055222A57721006AC399 /* LaunchScreen.storyboard */,
 				D59D055522A57721006AC399 /* Info.plist */,
 			);
 			path = FundingCircle;
+			sourceTree = "<group>";
+		};
+		D59D055B22A57737006AC399 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D582D43C22A5813C00927B99 /* Auction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D59D055C22A57748006AC399 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D582D44222A59BFF00927B99 /* AuctionsViewModel.swift */,
+				D532968422A5F8A7001EE1E5 /* EstimatedReturnViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D59D055822A57721006AC399 /* Build configuration list for PBXNativeTarget "FundingCircle" */;
 			buildPhases = (
+				FBD9BE158897599B83AC6449 /* [CP] Check Pods Manifest.lock */,
 				D59D054222A57720006AC399 /* Sources */,
 				D59D054322A57720006AC399 /* Frameworks */,
 				D59D054422A57720006AC399 /* Resources */,
+				A87E3DB4B6D3E7B6ACF151CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +215,75 @@
 				D59D055422A57721006AC399 /* LaunchScreen.storyboard in Resources */,
 				D59D055122A57721006AC399 /* Assets.xcassets in Resources */,
 				D59D054F22A57720006AC399 /* Main.storyboard in Resources */,
+				D532968922A6CCBF001EE1E5 /* Auctions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A87E3DB4B6D3E7B6ACF151CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FundingCircle/Pods-FundingCircle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FundingCircle/Pods-FundingCircle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD9BE158897599B83AC6449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FundingCircle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D59D054222A57720006AC399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D59D054C22A57720006AC399 /* ViewController.swift in Sources */,
+				D582D44722A5AE3C00927B99 /* AuctionCell.swift in Sources */,
+				D582D44322A59BFF00927B99 /* AuctionsViewModel.swift in Sources */,
+				D59D054C22A57720006AC399 /* AuctionsViewController.swift in Sources */,
+				D582D43D22A5813C00927B99 /* Auction.swift in Sources */,
 				D59D054A22A57720006AC399 /* AppDelegate.swift in Sources */,
+				D532968322A5F80C001EE1E5 /* EstimatedReturnViewController.swift in Sources */,
+				D532968522A5F8A7001EE1E5 /* EstimatedReturnViewModel.swift in Sources */,
+				D582D43F22A5834E00927B99 /* AuctionsService.swift in Sources */,
+				D582D44122A5862500927B99 /* AuctionsRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +427,7 @@
 		};
 		D59D055922A57721006AC399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DE6EF5974FE45FF410C049 /* Pods-FundingCircle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +445,7 @@
 		};
 		D59D055A22A57721006AC399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF5DF7FBB0CDDDE97521D11 /* Pods-FundingCircle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
